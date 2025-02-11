@@ -18,8 +18,8 @@ import TyTable from "@evaluation-ui/shared-components/TyTable/index.vue";
 
 - **`columns`**: `Array`
   - 表格列的配置数组，每个对象包含以下属性：
-    - `label`: 列的显示名称。
-    - `prop`: 列对应的数据字段/插槽名称。
+    - `label`: 列的显示名称（必选）。
+    - `prop`: 列对应的数据字段/插槽名称(必选)。
     - `width`: 列宽度（可选）。
     - `fixed`: 是否固定列（可选）。
 
