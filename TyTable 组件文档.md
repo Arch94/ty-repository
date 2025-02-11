@@ -19,8 +19,7 @@ import TyTable from "@evaluation-ui/shared-components/TyTable/index.vue";
 - **`columns`**: `Array`
   - 表格列的配置数组，每个对象包含以下属性：
     - `label`: 列的显示名称。
-    - `prop`: 列对应的数据字段。
-    - `slotName`: 自定义插槽名称（可选）。
+    - `prop`: 列对应的数据字段/插槽名称。
     - `width`: 列宽度（可选）。
     - `fixed`: 是否固定列（可选）。
 
@@ -97,18 +96,15 @@ const columns = ref([
   {
     label: "学期",
     prop: "term",
-    slotName: "term",
     width: 200,
   },
   {
     label: "时间",
     prop: "weekDate",
-    slotName: "weekDate",
   },
   {
     label: "值周老师",
     prop: "teacherNameList",
-    slotName: "teacherNameList",
   },
   {
     label: "操作",
